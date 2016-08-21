@@ -32,7 +32,7 @@ public class Delete extends AppCompatActivity {
 
         //Set name of the Taskbar;
         setTitle("Delete Tasks");
-
+        //This is to illustrate someone.
         listView = (ListView) findViewById(R.id.lvDelete);
         imageId = R.drawable.btndelete;
 

@@ -17,6 +17,7 @@ import android.widget.Toast;
  */
 public class AlarmReceiver extends BroadcastReceiver{
 
+    //This is a kind of counter for all notifications.
     private static int  numNotification = 0;
     @Override
     public void onReceive(Context context, Intent intent) {
