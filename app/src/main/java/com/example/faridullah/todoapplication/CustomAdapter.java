@@ -24,6 +24,7 @@ public class CustomAdapter extends ArrayAdapter {
 
     public CustomAdapter(Context context, ArrayList list){
         super(context,0,list);
+        //This will set the context of the class to the sent context;
         this.context = context;
     }
 
