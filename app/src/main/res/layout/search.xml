@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvSearchedTasks"
+        android:layout_below="@+id/view5">
+
+    </ListView>
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/back"
+        android:id="@+id/backbtn"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <View
+            android:layout_width="1dp"
+            android:layout_height="33dp"
+            android:background="#000000"
+            android:layout_marginTop="2dp"
+            android:layout_alignRight="@+id/backbtn"
+        android:id="@+id/view4" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/backbtn"
+        android:id="@+id/view5" />
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSearch"
+        android:hint="search query"
+        android:layout_alignTop="@+id/btnback"
+        android:layout_toRightOf="@+id/backbtn"
+        android:layout_toEndOf="@+id/backbtn" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:id="@+id/btnSearch"
+        android:background="@drawable/search"
+        android:layout_alignBottom="@+id/etSearch"
+        android:layout_toRightOf="@+id/etSearch"
+        android:layout_toEndOf="@+id/etSearch" />
+
+</RelativeLayout>
